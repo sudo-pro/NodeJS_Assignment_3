@@ -1,0 +1,19 @@
+<div class="container">
+  <div
+    class="top-bar"
+    style="display: flex; justify-content: space-between; align-items: center"
+  >
+      <div class="action-btns">
+        <a
+          href="/"
+          class="<%= (path === '/') ? 'action-btns-active' : 'action-btns-inactive' %>"
+          >Add user</a
+        >
+        <a
+          href="/users"
+          class="<%= (path === '/users') ? 'action-btns-active' : 'action-btns-inactive' %>"
+          >View users</a
+        >
+    </div>
+  </div>
+  <div class="user-data">

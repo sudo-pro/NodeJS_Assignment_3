@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_assignment_3",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "license": "MIT",
+  "author": "Jagadish Sau",
+  "description": "User Management System with Express.js and Template Engine",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

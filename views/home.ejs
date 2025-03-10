@@ -1,0 +1,8 @@
+<%-include('layouts/html-open.ejs')%>
+    <%- include('layouts/container-open.ejs') %>
+    <form action="/add-user" method="POST"  class="user-form">
+        <input type="text" name="name" placeholder="Enter your name" autocomplete="off"  maxlength="30" required>
+        <button type="submit">Add User</button>
+    </form>
+    <%- include('layouts/container-close.ejs') %>
+<%-include('layouts/html-close.ejs')%>

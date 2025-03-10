@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f7f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+button {
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+}
